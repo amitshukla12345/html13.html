@@ -1,0 +1,33 @@
+.box
+{
+    height: 5px;
+    width: 5px;
+    background-color: red;
+    margin: auto;
+}
+.para
+{
+    background-color: aqua;
+}
+.para span
+{
+    background-color: orange;
+    /* height:500px; */
+    display:inline-block;
+    
+}
+h1{
+    background-color: aqua;
+    height: 250px;
+    display: inline-block;
+
+}
+a{
+    text-decoration: none;
+    background: bisque;
+    display: inline-block;
+    height: 30px;
+    padding: 0px 20px;
+    color: red;
+    box-sizing: border-box;
+}

@@ -1,0 +1,6 @@
+.box
+{
+    /*solid double dashed dotted*/
+    border:2px dashed red;
+    height:100;
+}

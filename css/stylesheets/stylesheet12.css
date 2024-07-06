@@ -1,0 +1,27 @@
+.box{
+    width:200px;
+    height:200px;
+    /* fixed sticky(sticky is combination of relative and fixed*/
+    position: static;
+}
+#box1{
+    background-color: red;
+    left: 10px;
+    top:10px
+   
+
+}
+#box2{
+    background-color: greenyellow;
+    left:20px;
+    top:20px;
+}
+#box3{
+    background-color: palegoldenrod;
+   left:30px;
+   top:30px;
+   z-index: 2;
+
+   
+}
+

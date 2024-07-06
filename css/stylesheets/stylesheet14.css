@@ -1,0 +1,41 @@
+.container
+{
+    background-color: paleturquoise;
+    /* width: 500px; */
+    display: flex;
+    height: auto;
+    /* row row-reverse column*/
+    /*flex-direction: row-reverse;*/
+    flex-wrap: wrap;
+    /*horizontal aligment
+    left center right space-evenly space-between sapce-around*/
+    justify-content: space-between;
+    /* flex-start flex-end center*/
+    align-items:center;
+
+}
+.box
+{
+    border:1px solid black;
+    background-color: plum;
+    margin:2px;
+    height:100 ;
+    width: 100px; 
+}
+#box1
+{
+    flex-grow:1;
+}
+#box2
+{
+    flex-grow:3;
+}
+#box3
+{
+    flex-shrink:2;
+}
+#box4
+{
+    flex-shrink: 3;
+}
+

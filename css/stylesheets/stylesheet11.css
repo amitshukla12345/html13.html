@@ -1,0 +1,38 @@
+.box
+{
+    width: 500px;
+    height: 200px;
+    background-color: palegoldenrod;
+    margin: 10px;
+    display: inline-block;
+}
+body
+{
+  background-color: aqua;
+}
+
+#box1
+{
+    border-radius: 100;
+    background-image:url("../../image/flower.jpg");
+    background-position: left -40px;
+    background-shadow: 10px 10px rgb(197,191,191);
+}
+#box2
+{
+    border-rdius:0px 25px;
+    background-image:url("../../image/image.jpg");
+    background-size: 75%;
+}
+
+#box3
+{
+    border-radius: 25px 25px 0px 0px;
+    border: ;
+}
+#box4{
+    border-radius: 100px 100px 100px 0px;
+}
+#box5{
+    box-shadow: 10px 10px rgb(197,191,191);
+}

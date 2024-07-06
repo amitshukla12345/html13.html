@@ -1,0 +1,19 @@
+a:visited
+{
+color:aqua;
+}
+a:hover
+{
+    color:blueviolet;
+}
+h1:hover{
+    background-color: chartreuse;
+}
+a:active
+{
+    color:coral;
+}
+h1:hover{
+    background-color: chartreuse;
+}
+# para5

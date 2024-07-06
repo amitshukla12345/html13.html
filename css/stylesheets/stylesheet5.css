@@ -1,0 +1,10 @@
+p::first-line
+{
+background-color: aqua;
+}
+p::first-letter
+{
+    font-size:130px;
+}
+
+li:nth-child(even)
